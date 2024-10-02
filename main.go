@@ -106,7 +106,7 @@ func main() {
 					}
 				}
 			}
-			givenWordsL.SetText(fmt.Sprintf("%s\n%s - %dб, %dк", givenWordsL.Text, word, bulls, cows))
+			givenWordsL.SetText(fmt.Sprintf("%s - %dб, %dк\n%s", word, bulls, cows, givenWordsL.Text))
 		}
 
 		if word == mysteryWord {
